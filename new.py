@@ -80,7 +80,7 @@ def process_pdf_and_upload(input_file_path: str):
                             'Cookie': 'connect.sid=s%3Ausgf57whSODsQf2BzYMsFyfwg_dXGn-_.H1476KPvzTQR6evQlKXPx%2BRlmTEvg3OKrZOnUIESahY'
                             }
 
-                            url = "https://ocdev.oneclick.info:3200/fileUpload"
+                            url = "=============Dummy URL Link: {output_image_path}============="
                             #print("helo")
                             response = requests.post(url, headers=headers, files=files)
 
